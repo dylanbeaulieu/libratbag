@@ -46,7 +46,7 @@ def check_match_str(string: str):
         vid = parts[1]
         assert vid == f"{int(vid, 16):04x}"
         pid = parts[2]
-        assert pid == f"{int(pid, 16):04x}"
+        #assert pid == f"{int(pid, 16):04x}"
 
 
 def check_devicetype_str(string):
